@@ -32,13 +32,14 @@ class _ZonaSDState extends State<ZonaSD> {
     final double screenW= MediaQuery.of(context).size.width;
     final double screenH = MediaQuery.of(context).size.height;
     return Scaffold(
+      backgroundColor: Colors.white,
       body: CustomScrollView(
           slivers: <Widget>[
             SliverAppBar(
               pinned: true,
               snap: true,
               floating: true,
-              title: Text('ZONA SD',style: TextStyle(color: ColorPallete.blackPurple,fontWeight: FontWeight.w900,fontSize: 24)),
+              title: Text('ZONA SD',style: TextStyle(color: ColorPallete.blackPurple,fontWeight: FontWeight.w700,fontSize: 24)),
               centerTitle: true,
               leading: IconButton(onPressed:() {
                 Navigator.pop(context);
@@ -61,8 +62,8 @@ class _ZonaSDState extends State<ZonaSD> {
               child: Container(
                 padding: const EdgeInsets.only(left: 10,right: 10,top: 8,bottom: 30),
                 child: Column(children: [
-                  MylistInfo(icon: Icons.video_collection_rounded, text: 'Panduan Video PPDB 2022',onPress: _urlVideo,),
-                  MylistInfo(icon: Icons.location_on, text: 'Panduan Manual Book PPDB SD 2022',onPress: _urlEbbok,),
+                  MylistInfo(icon: Icons.video_collection_rounded, text: 'Panduan Video PPDB',onPress: _urlVideo,),
+                  MylistInfo(icon: Icons.menu_book, text: 'Panduan Manual Book PPDB SD',onPress: _urlEbbok,),
                   MylistInfo(icon: Icons.people_alt, text: 'Jumlah Pendaftar SD',onPress: _pendaftar,),
                   MylistInfoNav(icon: Icons.app_registration, text: 'Pilih Jalur Pendaftaran SD',onPress: () {
                     Navigator.push(

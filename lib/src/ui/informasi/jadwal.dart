@@ -23,7 +23,7 @@ class _JadwalState extends State<Jadwal> {
               pinned: true,
               snap: true,
               floating: true,
-              title: Text('JADWAL PPDB 2022',style: TextStyle(color: ColorPallete.blackPurple,fontWeight: FontWeight.w900,fontSize: 24)),
+              title: Text('JADWAL PPDB 2022',style: TextStyle(color: ColorPallete.blackPurple,fontWeight: FontWeight.w700,fontSize: 24)),
               centerTitle: true,
               leading: IconButton(onPressed:() {
                 Navigator.pop(context);

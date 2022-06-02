@@ -25,13 +25,14 @@ class _JalurSDState extends State<JalurSD> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: CustomScrollView(
           slivers: <Widget>[
             SliverAppBar(
               pinned: true,
               snap: true,
               floating: true,
-              title: Text('JALUR PENDAFTARAN SD',style: TextStyle(color: ColorPallete.blackPurple,fontWeight: FontWeight.w900,fontSize: 18)),
+              title: Text('JALUR PENDAFTARAN SD',style: TextStyle(color: ColorPallete.blackPurple,fontWeight: FontWeight.w700,fontSize: 18)),
               centerTitle: true,
               leading: IconButton(onPressed:() {
                 Navigator.pop(context);

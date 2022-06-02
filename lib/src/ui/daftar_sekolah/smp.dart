@@ -23,7 +23,7 @@ class _DaftarZonaSMPState extends State<DaftarZonaSMP> {
               pinned: true,
               snap: true,
               floating: true,
-              title: Text('PERZONA SMP',style: TextStyle(color: ColorPallete.blackPurple,fontWeight: FontWeight.w900,fontSize: 24)),
+              title: Text('PERZONA SMP',style: TextStyle(color: ColorPallete.blackPurple,fontWeight: FontWeight.w700,fontSize: 24)),
               centerTitle: true,
               leading: IconButton(onPressed:() {
                 Navigator.pop(context);

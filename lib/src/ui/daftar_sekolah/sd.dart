@@ -23,7 +23,7 @@ class _DaftarZonaSDState extends State<DaftarZonaSD> {
               pinned: true,
               snap: true,
               floating: true,
-              title: Text('PERZONA SD',style: TextStyle(color: ColorPallete.blackPurple,fontWeight: FontWeight.w900,fontSize: 24)),
+              title: Text('PERZONA SD',style: TextStyle(color: ColorPallete.blackPurple,fontWeight: FontWeight.w700,fontSize: 24)),
               centerTitle: true,
               leading: IconButton(onPressed:() {
                 Navigator.pop(context);

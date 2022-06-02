@@ -18,7 +18,7 @@ class _DashboardState extends State<Dashboard> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ColorPallete.whiteColor,
+      backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal:10),
@@ -26,7 +26,7 @@ class _DashboardState extends State<Dashboard> {
             children: [
               Container(
                 margin: const EdgeInsets.only(top: 40,bottom: 16),
-                padding: const EdgeInsets.symmetric(horizontal: 32),
+                padding: const EdgeInsets.symmetric(horizontal: 24),
                 child: Text(
                   'PPDB Kota Pangkalpinang Tahun 2022',
                   style: TextStyle(color: ColorPallete.blackPurple,fontSize: 24,fontWeight: FontWeight.w600),
