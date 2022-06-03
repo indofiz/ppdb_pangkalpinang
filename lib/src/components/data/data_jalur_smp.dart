@@ -13,7 +13,7 @@ class DatajalurSmp {
 List<DatajalurSmp> listJalurSmp = [
   DatajalurSmp(
     title: 'Jalur Zonasi',
-    link: Uri.parse('https://ppdb.pangkalpinangkota.go.id/smppkpsatu/siswa/Regis_casis.php'),
+    link: 'https://ppdb.pangkalpinangkota.go.id/smppkpsatu/siswa/Regis_casis.php',
     syarat: [
       'Kartu Keluarga (KK)',
       'Akte Lahir',
@@ -23,7 +23,7 @@ List<DatajalurSmp> listJalurSmp = [
   ),
   DatajalurSmp(
     title: 'Jalur Prestasi',
-    link: Uri.parse('https://ppdb.pangkalpinangkota.go.id/smppkpsatu/siswa/Regis_casis.php'),
+    link: 'https://ppdb.pangkalpinangkota.go.id/smppkpsatu/siswa/Regis_casis.php',
     syarat: [
       'Kartu Keluarga (KK)',
       'Akte Lahir',
@@ -35,7 +35,7 @@ List<DatajalurSmp> listJalurSmp = [
   ),
   DatajalurSmp(
     title: 'Jalur Afirmasi',
-    link: Uri.parse('https://ppdb.pangkalpinangkota.go.id/smppkpsatu/siswa/Regis_casis.php'),
+    link: 'https://ppdb.pangkalpinangkota.go.id/smppkpsatu/siswa/Regis_casis.php',
     syarat: [
       'Kartu Keluarga (KK)',
       'Akte Lahir',
@@ -46,7 +46,7 @@ List<DatajalurSmp> listJalurSmp = [
   ),
   DatajalurSmp(
     title: 'Jalur Mutasi',
-    link: Uri.parse('https://ppdb.pangkalpinangkota.go.id/smppkpsatu/siswa/Regis_casis.php'),
+    link: 'https://ppdb.pangkalpinangkota.go.id/smppkpsatu/siswa/Regis_casis.php',
     syarat: [
       'Kartu Keluarga (KK)',
       'Akte Lahir',

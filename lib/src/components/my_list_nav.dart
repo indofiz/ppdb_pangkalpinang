@@ -29,11 +29,9 @@ class MylistInfoNav extends StatelessWidget {
                 children: [
                   Icon(icon,color: ColorPallete.primaryBlue,),
                   const SizedBox(width: 12,),
-                  Text(text,style: TextStyle(color: ColorPallete.black80,fontWeight: FontWeight.w500,fontSize: 14),)
+                  Text(text,style: TextStyle(color: ColorPallete.black80,fontWeight: FontWeight.w500,fontSize: 13),)
                 ],
               ),
-              Icon(Icons.arrow_forward_ios,color: ColorPallete.black40,),
-
             ],
           ),
         ),

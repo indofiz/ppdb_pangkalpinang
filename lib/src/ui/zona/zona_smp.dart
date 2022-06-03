@@ -13,19 +13,15 @@ class ZonaSmp extends StatefulWidget {
   State<ZonaSmp> createState() => _ZonaSmpState();
 }
 
-_launchURL(Uri url) async {
-    if (await canLaunchUrl(url)) {
-      await launchUrl(url);
-    } else {
-      throw 'Could not launch $url';
-    }
+void _launchURL(url) async {
+    if (!await launch(url)) throw 'Chould not launch $url';
 }
 
 class _ZonaSmpState extends State<ZonaSmp> {
 
-  final Uri _urlEbbok = Uri.parse('https://ppdb.pangkalpinangkota.go.id/MANUAL_BOOK%20PPDB_ONLINE_DIKBUD_2021.pdf');
-  final Uri _urlVideo = Uri.parse('https://www.youtube.com/watch?v=QXhxSxljiZc');
-  final Uri _pendaftar = Uri.parse('https://ppdb.pangkalpinangkota.go.id/smppkpsatu/seleksi/');
+  final _urlEbbok = 'https://ppdb.pangkalpinangkota.go.id/MANUAL_BOOK%20PPDB_ONLINE_DIKBUD_2021.pdf';
+  final _urlVideo = 'https://www.youtube.com/watch?v=QXhxSxljiZc';
+  final _pendaftar = 'https://ppdb.pangkalpinangkota.go.id/smppkpsatu/seleksi/';
   @override
   Widget build(BuildContext context) {
     final double screenW= MediaQuery.of(context).size.width;
@@ -93,7 +89,7 @@ class _ZonaSmpState extends State<ZonaSmp> {
                         borderRadius: BorderRadius.circular(16)
                       ),
                       child: TextButton(
-                        onPressed: (){_launchURL(listZonaSmp[index].link);} ,
+                        onPressed: ()async{_launchURL(listZonaSmp[index].link);} ,
                         child: Padding(
                           padding: const EdgeInsets.only(top:16),
                           child: Column(

@@ -13,19 +13,15 @@ class ZonaSD extends StatefulWidget {
   State<ZonaSD> createState() => _ZonaSDState();
 }
 
-_launchURL(Uri url) async {
-    if (await canLaunchUrl(url)) {
-      await launchUrl(url);
-    } else {
-      throw 'Could not launch $url';
-    }
-}
+  void _launchURL(url) async {
+    if (!await launch(url)) throw 'Chould not launch $url';
+  }
 
 class _ZonaSDState extends State<ZonaSD> {
 
-  final Uri _urlEbbok = Uri.parse('https://ppdb.pangkalpinangkota.go.id/MANUAL_BOOK_PPDB_ONLINE_DIKBUD_2022.pdf');
-  final Uri _urlVideo = Uri.parse('https://www.youtube.com/watch?v=QXhxSxljiZc');
-  final Uri _pendaftar = Uri.parse('https://ppdb.pangkalpinangkota.go.id/sdzsatu/seleksi/');
+  final _urlEbbok = 'https://ppdb.pangkalpinangkota.go.id/MANUAL_BOOK_PPDB_ONLINE_DIKBUD_2022.pdf';
+  final _urlVideo = 'https://www.youtube.com/watch?v=QXhxSxljiZc';
+  final _pendaftar = 'https://ppdb.pangkalpinangkota.go.id/sdzsatu/seleksi/';
 
   @override
   Widget build(BuildContext context) {
@@ -94,7 +90,7 @@ class _ZonaSDState extends State<ZonaSD> {
                         borderRadius: BorderRadius.circular(16)
                       ),
                       child: TextButton(
-                        onPressed: (){_launchURL(listZonaSD[index].link);} ,
+                        onPressed: () async{_launchURL(listZonaSD[index].link);} ,
                         child: Padding(
                           padding: const EdgeInsets.only(top:16),
                           child: Column(

@@ -10,12 +10,8 @@ class JalurSmp extends StatefulWidget {
   State<JalurSmp> createState() => _JalurSmpState();
 }
 
-_launchURL(Uri url) async {
-    if (await canLaunchUrl(url)) {
-      await launchUrl(url);
-    } else {
-      throw 'Could not launch $url';
-    }
+void _launchURL(url) async {
+    if (!await launch(url)) throw 'Chould not launch $url';
 }
 
 class _JalurSmpState extends State<JalurSmp> {
@@ -77,7 +73,7 @@ class _JalurSmpState extends State<JalurSmp> {
                       style: TextButton.styleFrom(
                         padding: const EdgeInsets.symmetric(horizontal: 16,vertical: 16),
                       ),
-                      onPressed: (){_launchURL(listJalurSmp[index].link);} ,
+                      onPressed: ()async{_launchURL(listJalurSmp[index].link);} ,
                       child: Column(
                         children: [
                           Container(

@@ -13,7 +13,7 @@ class DatajalurSD {
 List<DatajalurSD> listJalurSD = [
   DatajalurSD(
     title: 'Jalur Zonasi',
-    link: Uri.parse('https://ppdb.pangkalpinangkota.go.id/sdzsatu/siswa/Regis_casis.php'),
+    link: 'https://ppdb.pangkalpinangkota.go.id/sdzsatu/siswa/Regis_casis.php',
     syarat: [
       'Kartu Keluarga (KK)',
       'Akte Lahir',
@@ -23,7 +23,7 @@ List<DatajalurSD> listJalurSD = [
   ),
   DatajalurSD(
     title: 'Jalur Afirmasi',
-    link: Uri.parse('https://ppdb.pangkalpinangkota.go.id/sdzsatu/siswa/Regis_casis.php'),
+    link: 'https://ppdb.pangkalpinangkota.go.id/sdzsatu/siswa/Regis_casis.php',
     syarat: [
       'Kartu Keluarga (KK)',
       'Akte Lahir',
@@ -34,7 +34,7 @@ List<DatajalurSD> listJalurSD = [
   ),
   DatajalurSD(
     title: 'Jalur Mutasi',
-    link: Uri.parse('https://ppdb.pangkalpinangkota.go.id/sdzsatu/siswa/Regis_casis.php'),
+    link: 'https://ppdb.pangkalpinangkota.go.id/sdzsatu/siswa/Regis_casis.php',
     syarat: [
       'Kartu Keluarga (KK)',
       'Akte Lahir',
