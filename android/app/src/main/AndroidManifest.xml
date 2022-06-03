@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="app.diskominfo.ppdb_pangkalpinang">
    <application
-        android:label="ppdb_pangkalpinang"
+        android:label="PPDB PANGKALPINANG"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
