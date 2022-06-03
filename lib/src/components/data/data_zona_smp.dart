@@ -38,7 +38,7 @@ List<DataZonaSMP> listZonaSmp = [
   ),
   DataZonaSMP(
     title: 'ZONA ENAM SMP',
-    link: 'https://ppdb.pangkalpinangkota.go.id/smppkpsatu/index.php)',
+    link: 'https://ppdb.pangkalpinangkota.go.id/smppkpsatu/index.php',
     kecamatan: 'KECAMATAN PANGKALBALAM'
   ),
 ];
