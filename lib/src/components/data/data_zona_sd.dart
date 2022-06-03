@@ -23,22 +23,22 @@ List<DataZonaSD> listZonaSD = [
   ),
   DataZonaSD(
     title: 'ZONA TIGA SD',
-    link: Uri.parse('https://ppdb.pangkalpinangkota.go.id/sdzdua/index.php'),
+    link: Uri.parse('https://ppdb.pangkalpinangkota.go.id/sdztiga'),
     kecamatan: 'KECAMATAN BUKIT INTAN'
   ),
   DataZonaSD(
     title: 'ZONA EMPAT SD',
-    link: Uri.parse('https://ppdb.pangkalpinangkota.go.id/sdzdua/index.php'),
+    link: Uri.parse('https://www.kota-pangkalpinang.id/sdzempat/index.php'),
     kecamatan: 'GERUNGGANG & TAMAN SARI'
   ),
   DataZonaSD(
     title: 'ZONA LIMA SD',
-    link: Uri.parse('https://ppdb.pangkalpinangkota.go.id/sdzdua/index.php'),
+    link: Uri.parse('https://www.kota-pangkalpinang.id/sdzlima/index.php'),
     kecamatan: 'KECAMATAN GABEK'
   ),
   DataZonaSD(
     title: 'ZONA ENAM SD',
-    link: Uri.parse('https://ppdb.pangkalpinangkota.go.id/sdzdua/index.php'),
+    link: Uri.parse('https://www.kota-pangkalpinang.id/sdzenam/index.php'),
     kecamatan: 'KECAMATAN PANGKALBALAM'
   ),
 ];
