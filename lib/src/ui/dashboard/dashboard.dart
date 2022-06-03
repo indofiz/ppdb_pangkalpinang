@@ -26,11 +26,20 @@ class _DashboardState extends State<Dashboard> {
             children: [
               Container(
                 margin: const EdgeInsets.only(top: 40,bottom: 16),
-                padding: const EdgeInsets.symmetric(horizontal: 24),
-                child: Text(
-                  'PPDB Kota Pangkalpinang Tahun 2022',
-                  style: TextStyle(color: ColorPallete.blackPurple,fontSize: 24,fontWeight: FontWeight.w600),
-                  textAlign: TextAlign.center,
+                padding: const EdgeInsets.symmetric(horizontal: 10),
+                child: Column(
+                  children: [
+                    Text(
+                      'PPDB Kota Pangkalpinang',
+                      style: TextStyle(color: ColorPallete.blackPurple,fontSize: 22,fontWeight: FontWeight.w600),
+                      textAlign: TextAlign.center,
+                    ),
+                    Text(
+                      'Tahun 2022',
+                      style: TextStyle(color: ColorPallete.blackPurple,fontSize: 24,fontWeight: FontWeight.w600),
+                      textAlign: TextAlign.center,
+                    ),
+                  ],
                 ),
               ),
               SizedBox(child: Image.asset('assets/images/hero.png')),
