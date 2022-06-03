@@ -1,6 +1,6 @@
 class DatajalurSD {
   final String title;
-  final dynamic link;
+  final String link;
   final List syarat;
 
   DatajalurSD({

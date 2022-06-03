@@ -1,6 +1,6 @@
 class DataZonaSMP {
   final String title;
-  final dynamic link;
+  final String link;
   final String kecamatan;
 
   DataZonaSMP({

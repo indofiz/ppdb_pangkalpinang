@@ -1,6 +1,6 @@
 class DatajalurSmp {
   final String title;
-  final dynamic link;
+  final String link;
   final List syarat;
 
   DatajalurSmp({
