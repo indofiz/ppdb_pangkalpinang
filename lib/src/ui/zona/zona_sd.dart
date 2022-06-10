@@ -60,7 +60,6 @@ class _ZonaSDState extends State<ZonaSD> {
                 child: Column(children: [
                   MylistInfo(icon: Icons.video_collection_rounded, text: 'Panduan Video PPDB',onPress: _urlVideo,),
                   MylistInfo(icon: Icons.menu_book, text: 'Panduan Manual Book PPDB SD',onPress: _urlEbbok,),
-                  MylistInfo(icon: Icons.people_alt, text: 'Jumlah Pendaftar SD',onPress: _pendaftar,),
                   MylistInfoNav(icon: Icons.app_registration, text: 'Pilih Jalur Pendaftaran SD',onPress: () {
                     Navigator.push(
                       context,

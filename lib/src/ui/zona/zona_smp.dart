@@ -59,7 +59,6 @@ class _ZonaSmpState extends State<ZonaSmp> {
                 child: Column(children: [
                   MylistInfo(icon: Icons.video_collection_rounded, text: 'Panduan Video PPDB 2022',onPress: _urlVideo,),
                   MylistInfo(icon: Icons.menu_book, text: 'Panduan Manual Book PPDB SMP',onPress: _urlEbbok,),
-                  MylistInfo(icon: Icons.people_alt, text: 'Jumlah Pendaftar SMP',onPress: _pendaftar,),
                   MylistInfoNav(icon: Icons.app_registration, text: 'Pilih Jalur Pendaftaran SMP',onPress: () {
                     Navigator.push(
                       context,
