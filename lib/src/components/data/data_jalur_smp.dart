@@ -12,47 +12,38 @@ class DatajalurSmp {
 
 List<DatajalurSmp> listJalurSmp = [
   DatajalurSmp(
-    title: 'Jalur Zonasi',
-    link: 'https://ppdb.pangkalpinangkota.go.id/smppkpsatu/siswa/Regis_casis.php',
-    syarat: [
-      'Kartu Keluarga (KK)',
-      'Akte Lahir',
-      'SKHU/SKL',
-      'Foto 3x4'
-    ]
-  ),
+      title: 'Jalur Zonasi',
+      link: 'https://ruangsiswa.my.id/smppkpsatu/siswa/Regis_casis.php',
+      syarat: ['Kartu Keluarga (KK)', 'Akte Lahir', 'SKHU/SKL', 'Foto 3x4']),
   DatajalurSmp(
-    title: 'Jalur Prestasi',
-    link: 'https://ppdb.pangkalpinangkota.go.id/smppkpsatu/siswa/Regis_casis.php',
-    syarat: [
-      'Kartu Keluarga (KK)',
-      'Akte Lahir',
-      'SKHU/SKL',
-      'Foto 3x4',
-      'Sertifikat Prestasi Non Akademik',
-      'Surat Keterangan Prestasi Akademik'
-    ]
-  ),
+      title: 'Jalur Prestasi',
+      link: 'https://ruangsiswa.my.id/smppkpsatu/siswa/Regis_casis.php',
+      syarat: [
+        'Kartu Keluarga (KK)',
+        'Akte Lahir',
+        'SKHU/SKL',
+        'Foto 3x4',
+        'Sertifikat Prestasi Non Akademik',
+        'Surat Keterangan Prestasi Akademik'
+      ]),
   DatajalurSmp(
-    title: 'Jalur Afirmasi',
-    link: 'https://ppdb.pangkalpinangkota.go.id/smppkpsatu/siswa/Regis_casis.php',
-    syarat: [
-      'Kartu Keluarga (KK)',
-      'Akte Lahir',
-      'SKHU/SKL',
-      'Foto 3x4',
-      'Kartu Sosial (KIP/PKH/KKS/PKS)',
-    ]
-  ),
+      title: 'Jalur Afirmasi',
+      link: 'https://ruangsiswa.my.id/smppkpsatu/siswa/Regis_casis.php',
+      syarat: [
+        'Kartu Keluarga (KK)',
+        'Akte Lahir',
+        'SKHU/SKL',
+        'Foto 3x4',
+        'Kartu Sosial (KIP/PKH/KKS/PKS)',
+      ]),
   DatajalurSmp(
-    title: 'Jalur Mutasi',
-    link: 'https://ppdb.pangkalpinangkota.go.id/smppkpsatu/siswa/Regis_casis.php',
-    syarat: [
-      'Kartu Keluarga (KK)',
-      'Akte Lahir',
-      'SKHU/SKL',
-      'Foto 3x4',
-      'Surat Mutasi Kerja Orang Tua.'
-    ]
-  )
+      title: 'Jalur Mutasi',
+      link: 'https://ruangsiswa.my.id/smppkpsatu/siswa/Regis_casis.php',
+      syarat: [
+        'Kartu Keluarga (KK)',
+        'Akte Lahir',
+        'SKHU/SKL',
+        'Foto 3x4',
+        'Surat Mutasi Kerja Orang Tua.'
+      ])
 ];

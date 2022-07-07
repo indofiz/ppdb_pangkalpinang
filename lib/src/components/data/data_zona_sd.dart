@@ -12,33 +12,27 @@ class DataZonaSD {
 
 List<DataZonaSD> listZonaSD = [
   DataZonaSD(
-    title: 'ZONA SATU SD',
-    link: 'https://ppdb.pangkalpinangkota.go.id/sdzsatu/index.php',
-    kecamatan: 'KECAMATAN RANGKUI'
-  ),
+      title: 'ZONA SATU SD',
+      link: 'https://ruangsiswa.my.id/sdzsatu/index.php',
+      kecamatan: 'KECAMATAN RANGKUI'),
   DataZonaSD(
-    title: 'ZONA DUA SD',
-    link: 'https://ppdb.pangkalpinangkota.go.id/sdzdua/index.php',
-    kecamatan: 'KECAMATAN GIRIMAYA'
-  ),
+      title: 'ZONA DUA SD',
+      link: 'https://ruangsiswa.my.id/sdzdua/index.php',
+      kecamatan: 'KECAMATAN GIRIMAYA'),
   DataZonaSD(
-    title: 'ZONA TIGA SD',
-    link: 'https://ppdb.pangkalpinangkota.go.id/sdztiga',
-    kecamatan: 'KECAMATAN BUKIT INTAN'
-  ),
+      title: 'ZONA TIGA SD',
+      link: 'https://ruangsiswa.my.id/sdztiga/index.php',
+      kecamatan: 'KECAMATAN BUKIT INTAN'),
   DataZonaSD(
-    title: 'ZONA EMPAT SD',
-    link: 'https://www.kota-pangkalpinang.id/sdzempat/index.php',
-    kecamatan: 'GERUNGGANG & TAMAN SARI'
-  ),
+      title: 'ZONA EMPAT SD',
+      link: 'https://ruangsiswa.my.id/sdzempat/index.php',
+      kecamatan: 'GERUNGGANG & TAMAN SARI'),
   DataZonaSD(
-    title: 'ZONA LIMA SD',
-    link: 'https://www.kota-pangkalpinang.id/sdzlima/index.php',
-    kecamatan: 'KECAMATAN GABEK'
-  ),
+      title: 'ZONA LIMA SD',
+      link: 'https://ruangsiswa.my.id/sdzlima/index.php',
+      kecamatan: 'KECAMATAN GABEK'),
   DataZonaSD(
-    title: 'ZONA ENAM SD',
-    link: 'https://www.kota-pangkalpinang.id/sdzenam/index.php',
-    kecamatan: 'KECAMATAN PANGKALBALAM'
-  ),
+      title: 'ZONA ENAM SD',
+      link: 'https://ruangsiswa.my.id/sdzenam/index.php',
+      kecamatan: 'KECAMATAN PANGKALBALAM'),
 ];

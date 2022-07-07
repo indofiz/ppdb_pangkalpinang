@@ -12,35 +12,32 @@ class DatajalurSD {
 
 List<DatajalurSD> listJalurSD = [
   DatajalurSD(
-    title: 'Jalur Zonasi',
-    link: 'https://ppdb.pangkalpinangkota.go.id/sdzsatu/siswa/Regis_casis.php',
-    syarat: [
-      'Kartu Keluarga (KK)',
-      'Akte Lahir',
-      'Ijazah TK/SKL TK kalau ada',
-      'Foto 3x4'
-    ]
-  ),
+      title: 'Jalur Zonasi',
+      link: 'https://ruangsiswa.my.id/sdzsatu/siswa/Regis_casis.php',
+      syarat: [
+        'Kartu Keluarga (KK)',
+        'Akte Lahir',
+        'Ijazah TK/SKL TK kalau ada',
+        'Foto 3x4'
+      ]),
   DatajalurSD(
-    title: 'Jalur Afirmasi',
-    link: 'https://ppdb.pangkalpinangkota.go.id/sdzsatu/siswa/Regis_casis.php',
-    syarat: [
-      'Kartu Keluarga (KK)',
-      'Akte Lahir',
-      'Ijazah TK/SKL TK kalau ada',
-      'Foto 3x4',
-      'Kartu Sosial (KIP/PKH/KKS/PKS)'
-    ]
-  ),
+      title: 'Jalur Afirmasi',
+      link: 'https://ruangsiswa.my.id/sdzsatu/siswa/Regis_casis.php',
+      syarat: [
+        'Kartu Keluarga (KK)',
+        'Akte Lahir',
+        'Ijazah TK/SKL TK kalau ada',
+        'Foto 3x4',
+        'Kartu Sosial (KIP/PKH/KKS/PKS)'
+      ]),
   DatajalurSD(
-    title: 'Jalur Mutasi',
-    link: 'https://ppdb.pangkalpinangkota.go.id/sdzsatu/siswa/Regis_casis.php',
-    syarat: [
-      'Kartu Keluarga (KK)',
-      'Akte Lahir',
-      'Ijazah TK/SKL TK kalau ada',
-      'Foto 3x4',
-      'Surat Mutasi Kerja Orang Tua.'
-    ]
-  )
+      title: 'Jalur Mutasi',
+      link: 'https://ruangsiswa.my.id/sdzsatu/siswa/Regis_casis.php',
+      syarat: [
+        'Kartu Keluarga (KK)',
+        'Akte Lahir',
+        'Ijazah TK/SKL TK kalau ada',
+        'Foto 3x4',
+        'Surat Mutasi Kerja Orang Tua.'
+      ])
 ];
